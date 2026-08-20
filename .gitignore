@@ -1,3 +1,18 @@
 __pycache__/
 *.pyc
 .vscode/
+
+# Environment variables — never commit secrets
+.env
+.env.*
+
+# Uploaded files
+uploads/
+
+# Database files
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
